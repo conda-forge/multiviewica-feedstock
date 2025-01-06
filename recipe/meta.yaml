@@ -17,8 +17,9 @@ build:
 
 requirements:
   host:
-    - pip
     - python {{ python_min }}
+    - pip
+    - setuptools
   run:
     - fastsrm
     - matplotlib-base >=2.0.0
